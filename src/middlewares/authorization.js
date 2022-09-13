@@ -1,16 +1,15 @@
-module.exports = function (permittedRoles) {
+
+module.exports = function (token) {
   return function (req, res, next) {
     // first get the user from the req
     const user = req.user;
 
     // check if user has any of the permittedRoles
     let isPermitted = false;
-    permittedRoles.map((role) => {
-    
-      if (user.roles.includes(role)) {
-        isPermitted = true;
-      }
-    });
+    if(token)
+    {
+      isPermitted=true
+    }
 
     // if not then throw an error
     if (!isPermitted) {
