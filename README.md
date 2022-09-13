@@ -4,13 +4,13 @@
 
 to start commond- num run server;
 
-#to register route-http://localhost:5000/register
+#to register route-https://iraitech-assignment-db.herokuapp.com/register
 
-#to register route-http://localhost:5000/login
+#to register route-https://iraitech-assignment-db.herokuapp.com/login
 and pass barrer token
 
-#to register route-http://localhost:5000/users
+#to register route-https://iraitech-assignment-db.herokuapp.com/users
 this is public route
 
-#to register route-http://localhost:5000/users/id
+#to register route-http:https://iraitech-assignment-db.herokuapp.com/users/id
 and pass barrer token
